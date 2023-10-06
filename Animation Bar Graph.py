@@ -9,8 +9,8 @@ covidData = pd.read_csv("Dataset.csv")
 dates = covidData["Date"].unique()
 # sub plot function returns a figure and axis objects
 figure, axis = plt.subplots(figsize=(15, 8))
-countries = ["India", "China", "US", "Italy", "Spain"]
-colors = ["black", 'red', "green", 'blue', "yellow"]
+countries = ["India", "US", "Italy", "Spain"]
+colors = ["black", "green", 'blue', "yellow"]
 
 
 def animFunc(Date):
